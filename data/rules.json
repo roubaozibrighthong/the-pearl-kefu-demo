@@ -1,0 +1,38 @@
+[
+  {
+    "rule_id": "RULE-DIAGNOSIS-001",
+    "category": "diagnosis_boundary",
+    "rule": "仅凭脱水晃动现象不得直接判断为产品质量问题，应先按运输固定件、地面与脚垫、衣物偏载顺序排查。",
+    "severity": "high",
+    "source": "项目既定人工纠正",
+    "owner": "业务审核人",
+    "approval_status": "approved_for_demo",
+    "effective_scope": "洗衣机/脱水机脱水晃动 Demo",
+    "effective_date": "2026-06-20",
+    "version": "1.0"
+  },
+  {
+    "rule_id": "RULE-SAFETY-001",
+    "category": "safety_escalation",
+    "rule": "出现焦味、冒烟、漏电、漏水、剧烈异响或空桶仍剧烈跳动时，应停止使用并转人工核实。",
+    "severity": "highest",
+    "source": "项目既定人工纠正",
+    "owner": "业务审核人",
+    "approval_status": "approved_for_demo",
+    "effective_scope": "洗衣机/脱水机脱水晃动 Demo",
+    "effective_date": "2026-06-20",
+    "version": "1.0"
+  },
+  {
+    "rule_id": "RULE-PROMISE-001",
+    "category": "promise_boundary",
+    "rule": "不得自动承诺故障结论、维修、赔付、退款、换货或上门结果。",
+    "severity": "highest",
+    "source": "项目既定人工纠正",
+    "owner": "业务审核人",
+    "approval_status": "approved_for_demo",
+    "effective_scope": "公开 Demo 客服回复",
+    "effective_date": "2026-06-20",
+    "version": "1.0"
+  }
+]

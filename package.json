@@ -1,0 +1,16 @@
+{
+  "name": "the-pearl-evomap-bridge",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:gep": "node --test tests/test_gep_bridge.mjs",
+    "evolver:inspect": "node scripts/evolver_bridge.cjs",
+    "evolver:review": "EVOLVE_BRIDGE=false HUB_OFFLINE=1 EVOMAP_PROXY=0 WORKER_ENABLED=0 EVOLVER_VALIDATOR_ENABLED=0 AGENT_SESSIONS_DIR=runtime/evolver/sessions evolver"
+  },
+  "dependencies": {
+    "@evomap/evolver": "1.89.14",
+    "@evomap/gep-sdk": "1.5.0",
+    "ajv": "8.20.0"
+  }
+}

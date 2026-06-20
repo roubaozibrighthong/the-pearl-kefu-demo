@@ -1,0 +1,51 @@
+{
+  "session": {
+    "source_query": "",
+    "source_answer": "",
+    "source_knowledge": {},
+    "similar_query": "",
+    "similar_answer": ""
+  },
+  "review": {
+    "marked_for_evolution": false,
+    "correction": "",
+    "candidate_generated": false
+  },
+  "capsule": {
+    "id": "CAP-WM-001",
+    "title": "洗衣机脱水乱跳结构化排查",
+    "status": "未生成",
+    "source": "智能客服1.0真实问法 + 人工纠正",
+    "source_refs": [
+      "03_清洗成果/智能客服1.0.xlsx｜模板!A23:B23",
+      "03_清洗成果/智能客服2.0.xlsx｜模板!A65:B65"
+    ],
+    "trigger": "洗衣机在脱水阶段明显晃动、跳动或移位",
+    "steps": [
+      "确认新机运输螺栓是否已拆除",
+      "确认机器是否放在坚硬、平整的地面并调平脚垫",
+      "暂停后将缠绕或偏在一侧的衣物抖散、均匀放置",
+      "空桶仍剧烈跳动、出现异响或漏水时停止使用并转人工"
+    ],
+    "boundary": "不承诺故障结论、赔付或上门结果；存在异响、漏水、焦味或空桶剧烈跳动时转人工。",
+    "reuse_count": 0,
+    "human_approved": false,
+    "approved_by": "",
+    "approved_at": "",
+    "gep_asset_id": "",
+    "gep_status": "等待黄金测试验证",
+    "validation": {
+      "status": "未运行",
+      "passed": 0,
+      "total": 10,
+      "pass_rate": 0,
+      "validated_at": "",
+      "results": []
+    }
+  },
+  "evolver": {
+    "last_status": "未运行",
+    "last_output": ""
+  },
+  "events": []
+}

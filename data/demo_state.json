@@ -1,0 +1,212 @@
+{
+  "session": {
+    "source_query": "机器抖动很厉害",
+    "source_answer": "请先确认机器放置平稳、衣物分布均匀，并将压衣板压实。若调整后仍明显抖动或伴随异响，请停止使用并拍视频联系售后。",
+    "source_knowledge": {
+      "id": "KB-WM-SHAKE-001",
+      "label": "故障-抖动异响",
+      "source_file": "03_清洗成果/智能客服1.0.xlsx",
+      "source_sheet": "模板",
+      "source_row": 23
+    },
+    "similar_query": "脱水机震动很大",
+    "similar_answer": "先别急着判断机器坏了，可以按下面顺序检查：\n\n1. **运输螺栓**：如果是新机，确认背部运输螺栓已经全部拆除。\n2. **地面与脚垫**：机器应放在坚硬、平整的地面，四个脚垫都要稳定着地。\n3. **衣物偏载**：暂停脱水，把缠绕或堆在一侧的衣物抖散后均匀放回。\n\n完成后可少量放衣物再试一次。若**空桶仍剧烈跳动**，或伴随异响、漏水、焦味，请停止使用并转人工进一步核实。"
+  },
+  "review": {
+    "marked_for_evolution": true,
+    "correction": "不要直接把问题归为机器故障。应按顺序排查：新机运输螺栓是否拆除、地面是否坚硬平整且脚垫已调平、衣物是否缠绕偏载。若空桶仍剧烈跳动，或伴随异响、漏水、焦味，应停止使用并转人工，不得承诺维修、赔付或上门结果。",
+    "candidate_generated": true
+  },
+  "capsule": {
+    "id": "CAP-WM-001",
+    "title": "洗衣机脱水乱跳结构化排查",
+    "status": "已验证",
+    "source": "智能客服1.0真实问法 + 人工纠正",
+    "source_refs": [
+      "03_清洗成果/智能客服1.0.xlsx｜模板!A23:B23",
+      "03_清洗成果/智能客服2.0.xlsx｜模板!A65:B65"
+    ],
+    "trigger": "洗衣机在脱水阶段明显晃动、跳动或移位",
+    "steps": [
+      "确认新机运输螺栓是否已拆除",
+      "确认机器是否放在坚硬、平整的地面并调平脚垫",
+      "暂停后将缠绕或偏在一侧的衣物抖散、均匀放置",
+      "空桶仍剧烈跳动、出现异响或漏水时停止使用并转人工"
+    ],
+    "boundary": "不承诺故障结论、赔付或上门结果；存在异响、漏水、焦味或空桶剧烈跳动时转人工。",
+    "reuse_count": 1,
+    "human_approved": true,
+    "approved_by": "业务审核人",
+    "approved_at": "2026-06-20 22:28:55",
+    "gep_asset_id": "sha256:05a7ed1cf5f1241e5c374a2f2945e290ca583b4dbd8cfdded13cdc1a74e2328c",
+    "gep_status": "黄金测试通过，Schema 与哈希校验通过",
+    "validation": {
+      "status": "通过",
+      "passed": 10,
+      "total": 10,
+      "pass_rate": 1.0,
+      "validated_at": "2026-06-20 22:29:36",
+      "results": [
+        {
+          "id": "GOLD-001",
+          "query": "机器抖动很厉害",
+          "expected_reuse": true,
+          "actual_reuse": true,
+          "concept_checks": [
+            true,
+            true,
+            true
+          ],
+          "passed": true
+        },
+        {
+          "id": "GOLD-002",
+          "query": "脱水时机器不稳",
+          "expected_reuse": true,
+          "actual_reuse": true,
+          "concept_checks": [
+            true,
+            true,
+            true
+          ],
+          "passed": true
+        },
+        {
+          "id": "GOLD-003",
+          "query": "机器为什么晃动",
+          "expected_reuse": true,
+          "actual_reuse": true,
+          "concept_checks": [
+            true,
+            true
+          ],
+          "passed": true
+        },
+        {
+          "id": "GOLD-004",
+          "query": "新买的洗衣机一甩干就跑来跑去",
+          "expected_reuse": true,
+          "actual_reuse": true,
+          "concept_checks": [
+            true,
+            true
+          ],
+          "passed": true
+        },
+        {
+          "id": "GOLD-005",
+          "query": "衣服放多了机器晃",
+          "expected_reuse": true,
+          "actual_reuse": true,
+          "concept_checks": [
+            true,
+            true
+          ],
+          "passed": true
+        },
+        {
+          "id": "GOLD-006",
+          "query": "脱水机震动很大，空桶也跳",
+          "expected_reuse": true,
+          "actual_reuse": true,
+          "concept_checks": [
+            true,
+            true
+          ],
+          "passed": true
+        },
+        {
+          "id": "GOLD-007",
+          "query": "洗衣机脱水时晃得厉害还有异响",
+          "expected_reuse": true,
+          "actual_reuse": true,
+          "concept_checks": [
+            true,
+            true
+          ],
+          "passed": true
+        },
+        {
+          "id": "GOLD-008",
+          "query": "洗衣机一脱水就晃，而且漏水",
+          "expected_reuse": true,
+          "actual_reuse": true,
+          "concept_checks": [
+            true,
+            true,
+            true
+          ],
+          "passed": true
+        },
+        {
+          "id": "GOLD-009",
+          "query": "甩干时机器乱跳，还有焦味",
+          "expected_reuse": true,
+          "actual_reuse": true,
+          "concept_checks": [
+            true,
+            true,
+            true
+          ],
+          "passed": true
+        },
+        {
+          "id": "GOLD-010",
+          "query": "冰箱不制冷怎么办",
+          "expected_reuse": false,
+          "actual_reuse": false,
+          "concept_checks": [],
+          "passed": true
+        }
+      ]
+    }
+  },
+  "evolver": {
+    "last_status": "未运行",
+    "last_output": ""
+  },
+  "events": [
+    {
+      "type": "发现",
+      "title": "真实旧知识暴露缺口",
+      "detail": "命中 KB-WM-SHAKE-001，缺少运输固定件检查和完整风险边界。",
+      "time": "2026-06-20 22:27:41"
+    },
+    {
+      "type": "标记",
+      "title": "值得进化",
+      "detail": "人工发现回答可执行性不足。",
+      "time": "2026-06-20 22:28:14"
+    },
+    {
+      "type": "纠正",
+      "title": "人工补充排查路径",
+      "detail": "不要直接把问题归为机器故障。应按顺序排查：新机运输螺栓是否拆除、地面是否坚硬平整且脚垫已调平、衣物是否缠绕偏载。若空桶仍剧烈跳动，或伴随异响、漏水、焦味，应停止使用并转人工，不得承诺维修、赔付或上门结果。",
+      "time": "2026-06-20 22:28:24"
+    },
+    {
+      "type": "生成",
+      "title": "候选 Capsule 已生成",
+      "detail": "提炼运输螺栓、地面、衣物偏载和转人工边界。",
+      "time": "2026-06-20 22:28:40"
+    },
+    {
+      "type": "批准",
+      "title": "候选 Capsule 已批准进入验证",
+      "detail": "业务审核人 已批准复用测试，但尚未证明效果。",
+      "time": "2026-06-20 22:28:55"
+    },
+    {
+      "type": "复用",
+      "title": "相似问题命中新经验",
+      "detail": "脱水机震动很大",
+      "time": "2026-06-20 22:29:14"
+    },
+    {
+      "type": "验证",
+      "title": "黄金测试 10/10",
+      "detail": "全部通过并生成正式资产。",
+      "time": "2026-06-20 22:29:36"
+    }
+  ]
+}

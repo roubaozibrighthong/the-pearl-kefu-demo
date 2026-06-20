@@ -1,0 +1,62 @@
+[
+  {
+    "id": "GOLD-001",
+    "query": "机器抖动很厉害",
+    "expected_reuse": true,
+    "required_concepts": [["运输螺栓", "运输固定件"], ["平整", "脚垫"], ["偏载", "均匀"]]
+  },
+  {
+    "id": "GOLD-002",
+    "query": "脱水时机器不稳",
+    "expected_reuse": true,
+    "required_concepts": [["运输螺栓", "运输固定件"], ["平整", "脚垫"], ["停止使用", "转人工"]]
+  },
+  {
+    "id": "GOLD-003",
+    "query": "机器为什么晃动",
+    "expected_reuse": true,
+    "required_concepts": [["运输螺栓", "运输固定件"], ["偏载", "均匀"]]
+  },
+  {
+    "id": "GOLD-004",
+    "query": "新买的洗衣机一甩干就跑来跑去",
+    "expected_reuse": true,
+    "required_concepts": [["运输螺栓", "运输固定件"], ["平整", "脚垫"]]
+  },
+  {
+    "id": "GOLD-005",
+    "query": "衣服放多了机器晃",
+    "expected_reuse": true,
+    "required_concepts": [["偏载", "均匀"], ["少量", "减少衣物", "衣物"]]
+  },
+  {
+    "id": "GOLD-006",
+    "query": "脱水机震动很大，空桶也跳",
+    "expected_reuse": true,
+    "required_concepts": [["停止使用"], ["人工", "售后"]]
+  },
+  {
+    "id": "GOLD-007",
+    "query": "洗衣机脱水时晃得厉害还有异响",
+    "expected_reuse": true,
+    "required_concepts": [["停止使用"], ["人工", "售后"]]
+  },
+  {
+    "id": "GOLD-008",
+    "query": "洗衣机一脱水就晃，而且漏水",
+    "expected_reuse": true,
+    "required_concepts": [["停止使用"], ["断电"], ["人工", "售后"]]
+  },
+  {
+    "id": "GOLD-009",
+    "query": "甩干时机器乱跳，还有焦味",
+    "expected_reuse": true,
+    "required_concepts": [["停止使用"], ["断电"], ["人工", "售后"]]
+  },
+  {
+    "id": "GOLD-010",
+    "query": "冰箱不制冷怎么办",
+    "expected_reuse": false,
+    "required_concepts": []
+  }
+]

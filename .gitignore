@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Python virtual environments and caches
+.venv/
+.pip-cache/
+__pycache__/
+*.py[cod]
+node_modules/
+.npm-cache/
+
+# Temporary files
+.~*
+tmp/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Generated local evolution runtime
+runtime/gep/
+runtime/evolver/
