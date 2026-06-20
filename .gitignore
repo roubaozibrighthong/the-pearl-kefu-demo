@@ -21,3 +21,6 @@ tmp/
 # Generated local evolution runtime
 runtime/gep/
 runtime/evolver/
+
+# Generated zip archives
+*.zip
